@@ -5,8 +5,8 @@
 # Site
 title: Restsix's Blog
 subtitle: ""
-description: ""
-keywords:
+description: "建站目的，作为情感输出渠道，用文本记录学习或工作上的收获与总结，项目复盘"
+keywords: "社恐 没有朋友 独行侠"
 author: Restsix
 language: zh-CN
 timezone: ""
@@ -103,4 +103,7 @@ theme: nexmoe
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  # repo: https://github.com/用户名/仓库名.github.io.git
+  repo: git@github.com:resetsix/resetsix.github.io.git
+  branch: master
